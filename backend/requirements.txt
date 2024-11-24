@@ -1,0 +1,8 @@
+fastapi
+tensorflow
+opencv-python-headless
+numpy
+imageio-ffmpeg
+ffmpeg
+python-multipart
+uvicorn
