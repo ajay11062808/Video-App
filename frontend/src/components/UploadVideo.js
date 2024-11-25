@@ -1,12 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Upload, AlertCircle, CheckCircle, Loader, Play, RefreshCw } from 'lucide-react';
-
+import { useVideoContext } from './VideoContext';
 
 function UploadVideo() {
-  const [videoFile, setVideoFile] = useState(null);
+  const { videoFile, setVideoFile, outputVideoUrl, setOutputVideoUrl } = useVideoContext();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const [outputVideoUrl, setOutputVideoUrl] = useState('');
   const [uploadProgress, setUploadProgress] = useState(0);
   const [dragActive, setDragActive] = useState(false);
   const [processingStatus, setProcessingStatus] = useState('');

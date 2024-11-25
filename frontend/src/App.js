@@ -6,6 +6,7 @@ import Login from './components/Login';
 import UploadVideo from './components/UploadVideo';
 import Settings from './components/Settings';
 import MapPage from './components/MapPage';
+import { VideoProvider } from './components/VideoContext'; // Import VideoProvider
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -39,6 +40,7 @@ const App = () => {
   }
 
   return (
+    <VideoProvider>
     <div
       className="min-h-screen bg-fixed"
       style={{
@@ -138,6 +140,7 @@ const App = () => {
         </div>
       </div>
     </div>
+    </VideoProvider>
   );
 };
 
