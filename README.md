@@ -36,8 +36,8 @@ This repository hosts an application that uses a Long-term Recurrent Convolution
 ### **Backend Setup**
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name/backend
+   git clone https://github.com/ajay11062808/Video-App.git
+   cd Video-App/backend
    ```
 
 2. **Set up a Python environment:**
