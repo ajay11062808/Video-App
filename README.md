@@ -90,7 +90,7 @@ Ensure you define the necessary environment variables in a `.env` file in the ba
 ```env
 MODEL_PATH=./model.h5   # Path to your LRCN model
 ```
-
+Or We can directly give the file path of .h5 model in main.py file in backend dierctory
 ---
 
 ## **Frontend Tabs**
