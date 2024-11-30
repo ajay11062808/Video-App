@@ -11,14 +11,13 @@ This repository hosts an application that uses a Long-term Recurrent Convolution
 ## **Table of Contents**
 
 1. [Features](#features)
-2. [Project Architecture](#project-architecture)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Environment Variables](#environment-variables)
-6. [Frontend Tabs](#frontend-tabs)
-7. [Technologies Used](#technologies-used)
-8. [Contributing](#contributing)
-9. [License](#license)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Environment Variables](#environment-variables)
+5. [Frontend Tabs](#frontend-tabs)
+6. [Technologies Used](#technologies-used)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ---
 
@@ -29,23 +28,6 @@ This repository hosts an application that uses a Long-term Recurrent Convolution
 - **Settings Tab:** Configure application preferences.
 - RESTful API for seamless communication between the backend and frontend.
 - Interactive frontend interface built using React.
-
----
-
-## **Project Architecture**
-
-```
-root/
-├── backend/           # Backend server files
-│   ├── model.h5       # Pre-trained LRCN model
-│   ├── main.py        # FastAPI application
-│   └── requirements.txt
-├── frontend/          # React frontend files
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── README.md          # Project documentation
-```
 
 ---
 
@@ -62,7 +44,7 @@ root/
    ```bash
    python -m venv env
    source env/bin/activate    # On Linux/Mac
-   env\Scripts\activate       # On Windows
+   . env\Scripts\activate       # On Windows
    ```
 
 3. **Install dependencies:**
