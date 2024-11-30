@@ -4,7 +4,7 @@ A Machine Learning Model based website for Survillance on cameras to detect a fi
 
 ## **Project Overview**
 
-This repository hosts an application that uses a Long-term Recurrent Convolutional Network (LRCN) model to analyze video inputs. The backend is built with Python using a pre-trained `.h5` model, while the frontend provides an intuitive interface for users. The application features three main tabs: **Home**, **Maps**, and **Settings**.
+This repository hosts an application that uses a Long-term Recurrent Convolutional Network (LRCN) model to analyze video inputs. The backend is built with Python using a pre-trained `.h5` model, while the frontend was built on React provides an intuitive interface for users. The application features three main tabs: **Home**, **Maps**, and **Settings**.
 
 ---
 
